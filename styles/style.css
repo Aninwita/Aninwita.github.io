@@ -187,6 +187,41 @@ h6 {
 }
 /* End Testimonial */
 
+/* Start form */
+input [type="text"],
+input [type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #888888;
+    font-weight: 300;
+}
+
+input [type="submit"] {
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* End Form */
+
+/* Start Contact Form */
+.contact-form div {
+    margin: 20px 0;
+}
+/* End Contact Form */
+
 /* Start Menu Sekunder */
 .menu-sekunder {
     background-color: #f6f8fa;
